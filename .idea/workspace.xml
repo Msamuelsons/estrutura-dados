@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="881a9074-8c50-410d-87ef-008b451ccae7" name="Changes" comment="vetor não ordenado">
-      <change afterPath="$PROJECT_DIR$/vetor(ordenado)/ordenado.ipynb" afterDir="false" />
+    <list default="true" id="881a9074-8c50-410d-87ef-008b451ccae7" name="Changes" comment="vetores ordenados">
+      <change afterPath="$PROJECT_DIR$/algoritmos_ordenacao/bubble_debug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algoritmos_ordenacao/bubble_sort.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algoritmos_ordenacao/merge_sort.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +62,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.bubble_debug.executor": "Debug",
     "Python.fibonacci.executor": "Run",
     "Python.recursividade.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -125,7 +128,8 @@
       <workItem from="1721842624443" duration="4629000" />
       <workItem from="1721864384906" duration="2832000" />
       <workItem from="1721953659463" duration="6071000" />
-      <workItem from="1721997836462" duration="3089000" />
+      <workItem from="1721997836462" duration="3946000" />
+      <workItem from="1722274661642" duration="5712000" />
     </task>
     <task id="LOCAL-00001" summary="vetor não ordenado">
       <option name="closed" value="true" />
@@ -135,7 +139,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721959099873</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="vetores ordenados">
+      <option name="closed" value="true" />
+      <created>1722001186580</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722001186580</updated>
+    </task>
+    <task id="LOCAL-00003" summary="vetores ordenados">
+      <option name="closed" value="true" />
+      <created>1722001200414</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722001200414</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,10 +163,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="vetor não ordenado" />
-    <option name="LAST_COMMIT_MESSAGE" value="vetor não ordenado" />
+    <MESSAGE value="vetores ordenados" />
+    <option name="LAST_COMMIT_MESSAGE" value="vetores ordenados" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algoritmos_ordenacao/bubble_debug.py</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Estrutura_dados$fibonacci.coverage" NAME="fibonacci Coverage Results" MODIFIED="1721846362976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Estrutura_dados$recursividade.coverage" NAME="recursividade Coverage Results" MODIFIED="1721845051070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Estrutura_dados$bubble_debug.coverage" NAME="bubble_debug Coverage Results" MODIFIED="1722278326116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algoritmos_ordenacao" />
   </component>
 </project>
