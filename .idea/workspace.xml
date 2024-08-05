@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="881a9074-8c50-410d-87ef-008b451ccae7" name="Changes" comment="Algoritmo de ordenacao: Merge Sort">
-      <change afterPath="$PROJECT_DIR$/algoritmos_ordenacao/merge_v.2.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algoritmos_ordenacao/quick_sort.ipynb" afterDir="false" />
+    <list default="true" id="881a9074-8c50-410d-87ef-008b451ccae7" name="Changes" comment="Algoritmo de ordenacao: Quick Sort">
+      <change afterPath="$PROJECT_DIR$/filas/fila.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filas/filas_prioridade.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_encadeada/lista_encadeada.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pilha/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pilha/stack_v2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pilha/validador_expressao.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,30 +64,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.bubble_debug.executor": "Debug",
-    "Python.fibonacci.executor": "Run",
-    "Python.recursividade.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/marcc/Documents/Estrutura_dados/vetor(desordenado)",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.bubble_debug.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Python.recursividade.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.stack.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/marcc/Documents/Estrutura_dados/vetor(desordenado)&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Estrutura_dados" />
@@ -107,6 +113,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="stack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Estrutura_dados" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pilha" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pilha/stack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.stack" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -129,7 +163,11 @@
       <workItem from="1721953659463" duration="6071000" />
       <workItem from="1721997836462" duration="3946000" />
       <workItem from="1722274661642" duration="6042000" />
-      <workItem from="1722342481015" duration="5292000" />
+      <workItem from="1722342481015" duration="5483000" />
+      <workItem from="1722450138124" duration="5944000" />
+      <workItem from="1722539817676" duration="4515000" />
+      <workItem from="1722606094318" duration="143000" />
+      <workItem from="1722647884468" duration="2923000" />
     </task>
     <task id="LOCAL-00001" summary="vetor não ordenado">
       <option name="closed" value="true" />
@@ -179,11 +217,38 @@
       <option name="project" value="LOCAL" />
       <updated>1722280844309</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Algoritmo de ordenacao: Merge Sort">
+      <option name="closed" value="true" />
+      <created>1722349457132</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722349457132</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Algoritmo de ordenacao: Quick Sort">
+      <option name="closed" value="true" />
+      <created>1722349473027</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722349473027</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="vetor não ordenado" />
@@ -191,7 +256,8 @@
     <MESSAGE value="Algoritmo de ordenacao: Bubble Sort" />
     <MESSAGE value="Debug Bubble Sort" />
     <MESSAGE value="Algoritmo de ordenacao: Merge Sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Algoritmo de ordenacao: Merge Sort" />
+    <MESSAGE value="Algoritmo de ordenacao: Quick Sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algoritmo de ordenacao: Quick Sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
